@@ -1,0 +1,3 @@
+2021-07-17T00:03:12.6223313+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-07-17T00:03:12.6389726+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2021-07-17T00:03:12.6394427+05:30  [INF] Content root path: "C:\Users\komal.sharma\source\repos\Shipment" (b5d60022)
