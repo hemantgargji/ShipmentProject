@@ -1,0 +1,95 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-Shipment-D310A960-1EDF-40CE-B9AF-DE2BD454460E</UserSecretsId>
+    <WebProject_DirectoryAccessLevelKey>0</WebProject_DirectoryAccessLevelKey>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Shipment.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Shipment.MvcApplicationPartsAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Shipment.RazorAssemblyInfo.cs" />
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\netcoreapp3.1\Shipment.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\netcoreapp3.1\staticwebassets\Shipment.StaticWebAssets.xml" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\Shipment.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureAD.UI" Version="3.1.15" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.17" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.17" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.17" />
+    <PackageReference Include="Microsoft.Extensions.Logging.EventSource" Version="3.1.17" />
+    <PackageReference Include="Microsoft.Extensions.Logging.TraceSource" Version="3.1.17" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\netcoreapp3.1\apphost.exe" />
+    <None Include="obj\Debug\netcoreapp3.1\Shipment.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Shipment.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Shipment.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Shipment.csproj.CopyComplete" />
+    <None Include="obj\Debug\netcoreapp3.1\Shipment.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Shipment.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\Shipment.genruntimeconfig.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Shipment.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Shipment.pdb" />
+    <None Include="obj\Debug\netcoreapp3.1\Shipment.RazorAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Shipment.RazorCoreGenerate.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Shipment.RazorTargetAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Shipment.TagHelpers.input.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Shipment.TagHelpers.output.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Shipment.Views.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\Shipment.Views.pdb" />
+    <None Include="obj\Debug\netcoreapp3.1\staticwebassets\Shipment.StaticWebAssets.Manifest.cache" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Shipment.csproj.nuget.g.props" />
+    <None Include="obj\Shipment.csproj.nuget.g.targets" />
+    <None Include="Shipment.sln" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp3.1\cs\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\de\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\es\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\fr\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\it\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\ja\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\ko\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\pl\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\pt-BR\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\refs\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\runtimes\win-x64\native\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\runtimes\win-x86\native\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\ru\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\tr\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\zh-Hans\" />
+    <Folder Include="bin\Debug\netcoreapp3.1\zh-Hant\" />
+    <Folder Include="Shipment\" />
+  </ItemGroup>
+
+</Project>
